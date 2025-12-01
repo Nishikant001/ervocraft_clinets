@@ -54,7 +54,6 @@ exports.getClients = async (req, res) => {
   }
 };
 
-
 /**
  * Send generated email to client via nodemailer
  * POST /api/clients/send-email/:id
